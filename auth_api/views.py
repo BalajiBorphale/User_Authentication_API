@@ -4,10 +4,10 @@ from rest_framework.views import APIView
 
 from django.db import transaction
 from django.conf import settings
-from django.core.cache import cache # Used for rate limiting
+from django.core.cache import cache
 from django.utils import timezone
-import jwt # For manual JWT generation
-from datetime import timedelta # For JWT expiration
+import jwt
+from datetime import timedelta
 
 from .models import User, OTP
 from .serializers import UserRegistrationSerializer, OTPRequestSerializer, OTPVerificationSerializer

@@ -138,4 +138,4 @@ CACHES = {
 }
 
 
-CORS_ALLOW_ALL_ORIGINS = True # Set to True for development from file
+CORS_ALLOW_ALL_ORIGINS = True
